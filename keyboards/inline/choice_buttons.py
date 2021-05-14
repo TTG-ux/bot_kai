@@ -1,5 +1,22 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 
+#Темы вопросов
+temi_1 = InlineKeyboardMarkup(row_width=1)
+
+question_1 = InlineKeyboardButton(text = "Всё о документах при поступлении в КНИТУ-КАИ🗂", callback_data="doki_postupati")
+temi_1.insert(question_1)
+
+question_2 = InlineKeyboardButton(text = "Всё об поступлении📆", callback_data="postupat_vopros")
+temi_1.insert(question_2)
+
+question_3 = InlineKeyboardButton(text = "Всё об общежитии🏠", callback_data="obsgiaga_vopros")
+temi_1.insert(question_3)
+
+question_4 = InlineKeyboardButton(text = "Для иностранных граждан👥🇺🇸", callback_data="inostraci_vopros")
+temi_1.insert(question_4)
+
+question_5 = InlineKeyboardButton(text = "Всё о военной кафедре💂‍♀️", callback_data="war")
+temi_1.insert(question_5)
 
 #Клава Гумы
 #2
@@ -129,9 +146,6 @@ Kito_1 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="inform
 
 IKit_la.insert(Kito_1)
 
-Kito_2 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_informat_1")
-
-IKit_la.insert(Kito_2)
 
 #IRET
 UIR_button = InlineKeyboardMarkup(row_width=1)
@@ -155,9 +169,6 @@ Kito_14 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="infor
 
 IKit_la4.insert(Kito_14)
 
-Kito_24 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_informat_4")
-
-IKit_la4.insert(Kito_24)
 
 #IRET и ИКТЗИ
 boom_kar = InlineKeyboardMarkup(row_width=1)
@@ -201,9 +212,6 @@ Kito_11 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="infor
 
 IKit_la2.insert(Kito_11)
 
-Kito_22 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_informat_2")
-
-IKit_la2.insert(Kito_22)
 
 #IRET(245)
 UIR_button2 = InlineKeyboardMarkup(row_width=1)
@@ -250,9 +258,6 @@ Kito_13 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="infor
 
 IKit_la3.insert(Kito_13)
 
-Kito_23 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_informat_3")
-
-IKit_la3.insert(Kito_23)
 
 #IRET и ИКТЗИ(247)
 UIR_button3 = InlineKeyboardMarkup(row_width=1)
@@ -298,38 +303,77 @@ back_button247IKT.insert(b_1247IKT)
 
 determined_button = ReplyKeyboardMarkup(keyboard=[
     [
-        KeyboardButton(text="Высшее"),
-        KeyboardButton(text="Среднее")
+        KeyboardButton(text="Высшее💼"),
+        KeyboardButton(text="Среднее🎒")
     ],
     [
-        KeyboardButton(text="Часто задаваемые вопросы")
+        KeyboardButton(text="❓Часто задаваемые вопросы❓")
     ],
     [
-        KeyboardButton(text="Все важные ссылки")
+        KeyboardButton(text="❗Все важные ссылки❗")
     ],
     [
-        KeyboardButton(text="Контакты")
+        KeyboardButton(text="☎️Контакты☎️")
     ]
 ],
     resize_keyboard=True
 )
 
 
+#Среднее
+vibor_sr_1 = InlineKeyboardMarkup(row_width=1)
+
+vibor_sr_r_1 = InlineKeyboardButton(text = "⭐️ от 3 до 4", callback_data="var 3-4")
+vibor_sr_1.insert(vibor_sr_r_1)
+
+vibor_sr_r_2 = InlineKeyboardButton(text = "⭐️ от 4 и выше", callback_data="var 4+")
+vibor_sr_1.insert(vibor_sr_r_2)
+
+#Платка не платка от 3-4
+platka_sr_1 = InlineKeyboardMarkup(row_width=1)
+
+pl_sr_1 = InlineKeyboardButton(text = "Платное", callback_data="pl_sr_01")
+platka_sr_1.insert(pl_sr_1)
+
+
+#Образовательные программы
+obr_platka_1 = InlineKeyboardMarkup(row_width=1)
+
+obrazovka_1 = InlineKeyboardButton(text = "Экономика и бухгалтерский учёт(по отраслям)", callback_data="accountant")
+obr_platka_1.insert(obrazovka_1)
+
+obrazovka_2 = InlineKeyboardButton(text = "Техническое обслуживание и ремонт двигателей, систем и агрегатов автомобилей(на базе 9кл.)", callback_data="auto_door")
+obr_platka_1.insert(obrazovka_2)
+
+obrazovka_3 = InlineKeyboardButton(text = "Управление качеством продукции, процессов и услуг(по отрослям) (на базе 9кл.)", callback_data="quality_management")
+obr_platka_1.insert(obrazovka_3)
+
+obrazovka_4 = InlineKeyboardButton(text = "Технология металлообрабатывающего производства (на базе 9кл.)", callback_data="Recycling+")
+obr_platka_1.insert(obrazovka_4)
+
+obrazovka_5 = InlineKeyboardButton(text = "Управление качеством продукции, процессов и услуг(по отраслям)(на базе 11кл.)", callback_data="management+")
+obr_platka_1.insert(obrazovka_5)
+
+obrazovka_6 = InlineKeyboardButton(text = "Обеспечение информационной безопасности автоматизированных систем", callback_data="autosistems")
+obr_platka_1.insert(obrazovka_6)
+
+
+#Высшее
 vibor_button = InlineKeyboardMarkup(row_width=1)
 
-vibor_1 = InlineKeyboardButton(text="Математика Русский Физика", callback_data="Mat")
+vibor_1 = InlineKeyboardButton(text="⭐️ Математика Русский Физика", callback_data="Mat")
 
 vibor_button.insert(vibor_1)
 
-vibor_2 = InlineKeyboardButton(text = "Математика Русский Информатика", callback_data="IkT")
+vibor_2 = InlineKeyboardButton(text = "⭐️ Математика Русский Информатика", callback_data="IkT")
 
 vibor_button.insert(vibor_2)
 
-vibor_3 = InlineKeyboardButton(text = "Математика Русский Обществознание", callback_data="Obshaga")
+vibor_3 = InlineKeyboardButton(text = "⭐️ Математика Русский Обществознание", callback_data="Obshaga")
 
 vibor_button.insert(vibor_3)
 
-vibor_4 = InlineKeyboardButton(text = "Математика Русский Английский", callback_data="English")
+vibor_4 = InlineKeyboardButton(text = "⭐️ Математика Русский Английский", callback_data="English")
 
 vibor_button.insert(vibor_4)
 
@@ -342,9 +386,6 @@ nizko_lari = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="Ru
 
 fiziks_168.insert(nizko_lari)
 
-nozko_lori = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platkaa_ha")
-
-fiziks_168.insert(nozko_lori)
 
 IAAAP_button = InlineKeyboardMarkup(row_width=1)
 
@@ -366,9 +407,6 @@ fiz_202 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lolii
 
 fiziks_202.insert(fiz_202)
 
-fizi_202 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka")
-
-fiziks_202.insert(fizi_202)
 
 #Факультеты
 free_button = InlineKeyboardMarkup(row_width=1)
@@ -411,9 +449,6 @@ fiz_205 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_205.insert(fiz_205)
 
-fizi_205 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_205")
-
-fiziks_205.insert(fizi_205)
 
 #Факультеты
 free_button205 = InlineKeyboardMarkup(row_width=1)
@@ -460,9 +495,6 @@ fiz_206 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_206.insert(fiz_206)
 
-fizi_206 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_206")
-
-fiziks_206.insert(fizi_206)
 
 #Факультеты
 free_button206 = InlineKeyboardMarkup(row_width=1)
@@ -514,9 +546,6 @@ fiz_207 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_207.insert(fiz_207)
 
-fizi_207 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_207")
-
-fiziks_207.insert(fizi_207)
 
 #Факультеты
 free_button207 = InlineKeyboardMarkup(row_width=1)
@@ -571,9 +600,6 @@ fiz_208 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_208.insert(fiz_208)
 
-fizi_208 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_208")
-
-fiziks_208.insert(fizi_208)
 
 #Факультеты
 free_button208 = InlineKeyboardMarkup(row_width=1)
@@ -631,9 +657,6 @@ fiz_209 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_209.insert(fiz_209)
 
-fizi_209 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_209")
-
-fiziks_209.insert(fizi_209)
 
 #Факультеты
 free_button209 = InlineKeyboardMarkup(row_width=1)
@@ -695,9 +718,6 @@ fiz_210 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_210.insert(fiz_210)
 
-fizi_210 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_210")
-
-fiziks_210.insert(fizi_210)
 
 #Факультеты
 free_button210 = InlineKeyboardMarkup(row_width=1)
@@ -773,9 +793,6 @@ fiz_211 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_211.insert(fiz_211)
 
-fizi_211 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_211")
-
-fiziks_211.insert(fizi_211)
 
 #Факультеты
 free_button211 = InlineKeyboardMarkup(row_width=1)
@@ -856,9 +873,6 @@ fiz_220 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_220.insert(fiz_220)
 
-fizi_220 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_220")
-
-fiziks_220.insert(fizi_220)
 
 #Факультеты
 free_button220 = InlineKeyboardMarkup(row_width=1)
@@ -947,9 +961,6 @@ fiz_226 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_226.insert(fiz_226)
 
-fizi_226 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_226")
-
-fiziks_226.insert(fizi_226)
 
 #Факультеты
 free_button226 = InlineKeyboardMarkup(row_width=1)
@@ -1043,9 +1054,6 @@ fiz_228 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_228.insert(fiz_228)
 
-fizi_228 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_228")
-
-fiziks_228.insert(fizi_228)
 
 #Факультеты
 free_button228 = InlineKeyboardMarkup(row_width=1)
@@ -1150,9 +1158,6 @@ fiz_232 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_232.insert(fiz_232)
 
-fizi_232 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_232")
-
-fiziks_232.insert(fizi_232)
 
 #Факультеты
 free_button232 = InlineKeyboardMarkup(row_width=1)
@@ -1268,9 +1273,6 @@ fiz_233 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_233.insert(fiz_233)
 
-fizi_233 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_233")
-
-fiziks_233.insert(fizi_233)
 
 #Факультеты
 free_button233 = InlineKeyboardMarkup(row_width=1)
@@ -1390,9 +1392,6 @@ fiz_235 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_235.insert(fiz_235)
 
-fizi_235 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_235")
-
-fiziks_235.insert(fizi_235)
 
 #Факультеты
 free_button235 = InlineKeyboardMarkup(row_width=1)
@@ -1516,9 +1515,6 @@ fiz_240 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_240.insert(fiz_240)
 
-fizi_240 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_240")
-
-fiziks_240.insert(fizi_240)
 
 #Факультеты
 free_button240 = InlineKeyboardMarkup(row_width=1)
@@ -1646,9 +1642,6 @@ fiz_241 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_241.insert(fiz_241)
 
-fizi_241 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_241")
-
-fiziks_241.insert(fizi_241)
 
 #Факультеты
 free_button241 = InlineKeyboardMarkup(row_width=1)
@@ -1780,9 +1773,6 @@ fiz_250 = InlineKeyboardButton(text="🆓бюджет🆓", callback_data="lol1_
 
 fiziks_250.insert(fiz_250)
 
-fizi_250 = InlineKeyboardButton(text="💰Платное обучение💰", callback_data="platka_250")
-
-fiziks_250.insert(fizi_250)
 
 #Факультеты
 free_button250 = InlineKeyboardMarkup(row_width=1)
