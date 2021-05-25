@@ -1,5 +1,39 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 
+#Платное информация
+#ИАЭП
+baaip_platka = InlineKeyboardMarkup(row_widht=1)
+
+pl_iiaap1 = InlineKeyboardButton(text = "Природообустройство и водопользование (заочное)", callback_data = "zao_1")
+
+baaip_platka.insert(pl_iiaap1)
+
+pl_iiaap2 = InlineKeyboardButton(text = "Стандартизация, сертификация и метрология (заочное)", callback_data = "zao_2")
+
+baaip_platka.insert(pl_iiaap2)
+
+
+#ИКТЗИ
+platka_iktziii = InlineKeyboardMarkup(row_width=1)
+
+pl_iktzi1 = InlineKeyboardButton(text = "Прикладная математика и информатика. Модели управления BigData", callback_data = "Big Data_iktzi")
+
+platka_iktziii.insert(pl_iktzi1)
+
+
+#Ирэт
+platka_iret1 = InlineKeyboardMarkup(row_width=1)
+
+iretpla_1 = InlineKeyboardButton(text = "Информационные сети, мобильная и оптическая связь, квантовые коммуникации", callback_data = "inforeti")
+
+platka_iret1.insert(iretpla_1)
+#хенд назад
+back_buttonplatkair = InlineKeyboardMarkup(row_width=1)
+
+pl_ir_112 = InlineKeyboardButton(text = "Назад", callback_data="pl_ir_11123")
+
+back_buttonplatkair.insert(pl_ir_112)
+
 #Темы вопросов
 temi_1 = InlineKeyboardMarkup(row_width=1)
 
@@ -150,7 +184,7 @@ IKit_la.insert(Kito_1)
 #IRET
 UIR_button = InlineKeyboardMarkup(row_width=1)
 
-first_Iret = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="this_is_iret1")
+first_Iret = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="this_is_iret1")
 
 UIR_button.insert(first_Iret)
 
@@ -173,7 +207,7 @@ IKit_la4.insert(Kito_14)
 #IRET и ИКТЗИ
 boom_kar = InlineKeyboardMarkup(row_width=1)
 
-first_Iret4 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="this_is_iret4")
+first_Iret4 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="this_is_iret4")
 
 boom_kar.insert(first_Iret4)
 
@@ -216,7 +250,7 @@ IKit_la2.insert(Kito_11)
 #IRET(245)
 UIR_button2 = InlineKeyboardMarkup(row_width=1)
 
-first_Iret2 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="this_is_iret2")
+first_Iret2 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="this_is_iret2")
 
 UIR_button2.insert(first_Iret2)
 
@@ -262,7 +296,7 @@ IKit_la3.insert(Kito_13)
 #IRET и ИКТЗИ(247)
 UIR_button3 = InlineKeyboardMarkup(row_width=1)
 
-first_Iret3 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="this_is_iret3")
+first_Iret3 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="this_is_iret3")
 
 UIR_button3.insert(first_Iret3)
 
@@ -313,7 +347,8 @@ determined_button = ReplyKeyboardMarkup(keyboard=[
         KeyboardButton(text="❗Все важные ссылки❗")
     ],
     [
-        KeyboardButton(text="☎️Контакты☎️")
+        KeyboardButton(text="☎️Контакты☎️"),
+        KeyboardButton(text = '🚀Платное обучение🚀')
     ]
 ],
     resize_keyboard=True
@@ -422,7 +457,7 @@ iaap_202 = InlineKeyboardButton(text = "ИАЭП", callback_data="iaps_202")
 
 free_button.insert(iaap_202)
 
-iretii_202 = InlineKeyboardButton(text="⚡💚ИРЭТ💚⚡", callback_data="iret_free")
+iretii_202 = InlineKeyboardButton(text="⚡💚ИРЭФ-ЦТ💚⚡", callback_data="iret_free")
 
 free_button.insert(iretii_202)
 
@@ -464,7 +499,7 @@ f_1205 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1205")
 
 free_button205.insert(f_1205)
 
-f_2205 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1205")
+f_2205 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1205")
 
 free_button205.insert(f_2205)
 
@@ -510,7 +545,7 @@ f_1206 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1206")
 
 free_button206.insert(f_1206)
 
-f_2206 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1206")
+f_2206 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1206")
 
 free_button206.insert(f_2206)
 
@@ -561,7 +596,7 @@ f_1207 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1207")
 
 free_button207.insert(f_1207)
 
-f_2207 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1207")
+f_2207 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1207")
 
 free_button207.insert(f_2207)
 
@@ -615,7 +650,7 @@ f_1208 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1208")
 
 free_button208.insert(f_1208)
 
-f_2208 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1208")
+f_2208 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1208")
 
 free_button208.insert(f_2208)
 
@@ -672,7 +707,7 @@ f_1209 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1209")
 
 free_button209.insert(f_1209)
 
-f_2209 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1209")
+f_2209 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1209")
 
 free_button209.insert(f_2209)
 
@@ -733,7 +768,7 @@ f_1210 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1210")
 
 free_button210.insert(f_1210)
 
-f_2210 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1210")
+f_2210 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1210")
 
 free_button210.insert(f_2210)
 
@@ -808,7 +843,7 @@ f_1211 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1211")
 
 free_button211.insert(f_1211)
 
-f_2211 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1211")
+f_2211 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1211")
 
 free_button211.insert(f_2211)
 
@@ -888,7 +923,7 @@ f_1220 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1220")
 
 free_button220.insert(f_1220)
 
-f_2220= InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1220")
+f_2220= InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1220")
 
 free_button220.insert(f_2220)
 
@@ -976,7 +1011,7 @@ f_1226 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1226")
 
 free_button226.insert(f_1226)
 
-f_2226= InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1226")
+f_2226= InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1226")
 
 free_button226.insert(f_2226)
 
@@ -1073,7 +1108,7 @@ f_1228 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1228")
 
 free_button228.insert(f_1228)
 
-f_2228 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1228")
+f_2228 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1228")
 
 free_button228.insert(f_2228)
 
@@ -1181,7 +1216,7 @@ f_1232= InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1232")
 
 free_button232.insert(f_1232)
 
-f_2232 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1232")
+f_2232 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1232")
 
 free_button232.insert(f_2232)
 
@@ -1296,7 +1331,7 @@ f_1233 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1233")
 
 free_button233.insert(f_1233)
 
-f_2233 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1233")
+f_2233 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1233")
 
 free_button233.insert(f_2233)
 
@@ -1415,7 +1450,7 @@ f_1235 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1235")
 
 free_button235.insert(f_1235)
 
-f_2235 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1235")
+f_2235 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1235")
 
 free_button235.insert(f_2235)
 
@@ -1538,7 +1573,7 @@ f_1240 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1240")
 
 free_button240.insert(f_1240)
 
-f_2240 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1240")
+f_2240 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1240")
 
 free_button240.insert(f_2240)
 
@@ -1665,7 +1700,7 @@ f_1241 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1241")
 
 free_button241.insert(f_1241)
 
-f_2241 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1241")
+f_2241 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1241")
 
 free_button241.insert(f_2241)
 
@@ -1796,7 +1831,7 @@ f_1250 = InlineKeyboardButton(text = "ИАЭП", callback_data="Ia_1250")
 
 free_button250.insert(f_1250)
 
-f_2250 = InlineKeyboardButton(text = "⚡💚ИРЭТ💚⚡", callback_data="Ir_1250")
+f_2250 = InlineKeyboardButton(text = "⚡💚ИРЭФ-ЦТ💚⚡", callback_data="Ir_1250")
 
 free_button250.insert(f_2250)
 
