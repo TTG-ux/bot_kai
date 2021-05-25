@@ -357,6 +357,13 @@ obr_platka_1.insert(obrazovka_5)
 obrazovka_6 = InlineKeyboardButton(text = "Обеспечение информационной безопасности автоматизированных систем", callback_data="autosistems")
 obr_platka_1.insert(obrazovka_6)
 
+#Назад
+back_button_sr = InlineKeyboardMarkup(row_width=1)
+
+bsr_1 = InlineKeyboardButton(text = "Назад", callback_data="bsr_1")
+
+back_button_sr.insert(bsr_1)
+
 
 #Высшее
 vibor_button = InlineKeyboardMarkup(row_width=1)
