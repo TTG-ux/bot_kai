@@ -80,7 +80,7 @@ async def account_1(call: CallbackQuery):
                          f"• Министерство промышленности и торговли\n", reply_markup=back_button_sr)
 
 #хенд назад для от 3-4
-@dp.callback_query_handler(text = "bsr_1")
+@dp.callback_query_handler(text = "bsr_11")
 async def back_202(call: CallbackQuery):
     await call.message.edit_reply_markup(reply_markup=obr_platka_1)
 
