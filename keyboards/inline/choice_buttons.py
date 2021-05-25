@@ -360,7 +360,7 @@ obr_platka_1.insert(obrazovka_6)
 #Назад
 back_button_sr = InlineKeyboardMarkup(row_width=1)
 
-bsr_1 = InlineKeyboardButton(text = "Назад", callback_data="bsr_1")
+bsr_1 = InlineKeyboardButton(text = "Назад", callback_data="bsr_11")
 
 back_button_sr.insert(bsr_1)
 
