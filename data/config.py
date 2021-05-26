@@ -17,4 +17,6 @@ PGUSER = str(os.getenv("PG_USER"))
 
 password = str(os.getenv("PG_PASS"))
 
+banned_users = [123456, 12345666]
+
 
