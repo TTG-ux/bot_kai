@@ -417,40 +417,20 @@ async def backi_get(call: CallbackQuery):
 async def admin_1(m:Message):
     await m.answer(text = "Если у тебя есть вопросы ПО БОТУ, а не по ПОВОДУ ПОСТУПЛЕНИЯ\n\n"
                                 "Пиши в телеграм: @ttg_lrn ✌️🐶")
-
-
+#help
 @dp.message_handler(Command("help"))
 async def help_1(m:Message):
     await m.answer(text = "Все ссылки указаны на кнопке (Все ссылки)\n"
                           "Все контакты указаны на кнопке (Контакты)")
-
-        
+#midle-scool
 @dp.message_handler(Text(equals=["Среднее🎒"]))
 async def get_midle(message: Message):
     await message.answer(f"Выберите свой средний балл🏅", reply_markup=vibor_sr_1)
-
-
-
-@dp.callback_query_handler(text = "pl_sr_01")
-async def get_sr_one(call: CallbackQuery):
-    await call.answer(cache_time=60)
-
-    callback_data = call.data
-    logging.info(f"{callback_data=}")
-
-    await call.message.answer(f"Образовательные программы:", reply_markup=obr_platka_1)
-###
-
-
-#бесплатка среднее
-
-
-
+#high-scool
 @dp.message_handler(Text(equals=["Высшее💼"]))
 async def get_classic(message: Message):
     await message.answer(f"Выберите предметы ЕГЭ", reply_markup=vibor_button)
-
-
+#paid-training
 @dp.message_handler(Text(equals=["🚀Платное обучение🚀"]))
 async def get_classicioooc(message: Message):
     await message.answer(f"🛎Вся информация по поводу платного обучения на СПО содержиться в пункте (Среднее🎒)🛎")
@@ -475,7 +455,6 @@ async def get_classicioooc(message: Message):
                          f"Стандартизация, сертификация и метрология (заочное) - 💸50 тыс.руб.",reply_markup=baaip_platka)
 
 ###
-
 @dp.callback_query_handler(text="zao_2")
 async def get_lox2(call: CallbackQuery):
     await call.answer(cache_time=60)
@@ -674,21 +653,22 @@ async def IreTfzc(call: CallbackQuery):
 
 @dp.callback_query_handler(text = "pl_ir_11123")
 async def backing(call: CallbackQuery):
+    await call.answer(cache_time=10)
+
+    callback_data = call.data
+    logging.info(f"{callback_data=}")
+
     await call.message.delete()
-
-
-
-
 ###
 
-
+#referenes
 @dp.message_handler(Text(equals=["❗Все важные ссылки❗"]))
 async def get_classico(message: Message):
     await message.answer(f"Официальный сайт Приемной комиссии = https://abiturientu.kai.ru/ \n\n"
                          f"Сайт Каи = kai.ru \n\n"
                          f"Общежития = https://abiturientu.kai.ru/obsezitia\n\n"
                          f"Баллы за ваши индивидуальные достижения = https://abiturientu.kai.ru/bvi")
-
+#contacts
 @dp.message_handler(Text(equals=["☎️Контакты☎️"]))
 async def get_classic(message: Message):
     await message.answer(f"📞Телефоны:📞\n\n"
@@ -699,13 +679,13 @@ async def get_classic(message: Message):
                          f"👩‍🎨+7 (927) 457 73 53 – корпоративный мобильный номер приемной комиссии (аудио- и видеозвонки, WhatsApp, Telegram, Viber, FaceTime)👩‍🎨\n\n"
                          f"🗣+7 (843) 231 16 21 – отдел профориентационной работы🗣\n\n"
                          f"🗣+7 (499) 455 16 80 – «горячая линия» по вопросам приема лиц с ограниченными возможностями здоровья, инвалидов, детей-инвалидов (ежедневно с 9:30 до 18:00 по московскому времени, за исключением общевыходных и праздничных дней)🗣")
-
-
+#questions
 @dp.message_handler(Text(equals=["❓Часто задаваемые вопросы❓"]))
 async def get_classic(message: Message):
     await message.answer(f"Какая тема тебя интересует?😇",reply_markup=temi_1)
 
-
+###
+#all about documents
 @dp.callback_query_handler(text = "doki_postupati")
 async def voprosi_11(call: CallbackQuery):
     await call.answer(cache_time=60)
@@ -720,8 +700,7 @@ async def voprosi_11(call: CallbackQuery):
     await call.message.answer(f"Когда могу подать документы в КНИТУ-КАИ в 2021 году?")
 
     await call.message.answer(f"Какие документы необходимы для поступления?")
-
-
+#all about admission
 @dp.callback_query_handler(text = "postupat_vopros")
 async def vopros_2(call:CallbackQuery):
     await call.answer(cache_time=60)
@@ -744,8 +723,7 @@ async def vopros_2(call:CallbackQuery):
     await call.message.answer(f"Можно ли поступить в магистратуру на специальность, не связанную со специальностью бакалавриата/специалитета?")
 
     await call.message.answer(f"Есть ли какие-либо преимущества при поступлении, если имеется диплом победителя/призера олимпиады?")
-
-
+#all about hostel
 @dp.callback_query_handler(text="obsgiaga_vopros")
 async def vopros_3(call: CallbackQuery):
     await call.answer(cache_time=60)
@@ -758,8 +736,7 @@ async def vopros_3(call: CallbackQuery):
                               f"спроси меня) или скопируй предложенный вопрос✏")
 
     await call.message.answer(f"Предоставляется ли общежитие иногородним на период приемной кампании и на период обучения?")
-
-
+#foreign citizens
 @dp.callback_query_handler(text="inostraci_vopros")
 async def vopros_4(call: CallbackQuery):
     await call.answer(cache_time=60)
@@ -770,8 +747,7 @@ async def vopros_4(call: CallbackQuery):
     await call.message.answer(f"Вы выбрали\n\n"
                               f"Для иностранных граждан👥🇺🇸\n\n"
                               f"спроси меня) или скопируй предложенный вопрос✏")
-
-
+#all about military department
 @dp.callback_query_handler(text="war")
 async def vopros_4(call: CallbackQuery):
     await call.answer(cache_time=60)
@@ -784,9 +760,10 @@ async def vopros_4(call: CallbackQuery):
                               f"спроси меня) или скопируй предложенный вопрос✏")
 
     await call.message.answer(f"Есть ли в Вашем университете военная кафедра?")
+###
 
-
-
+#text handler
+###
 @dp.message_handler(content_types=['text'])
 async def jiirrr(message: types.Message):
 
@@ -950,10 +927,10 @@ async def jiirrr(message: types.Message):
         await message.answer(f"Твои баллы: {message.text}\n"
                                  "Моё уважение, ты можешь просмотреть все направления КАИ🦹‍♀\n"
                                  "Возможные направления в:", reply_markup=fiziks_250)
+###
 
 
-
-
+#University
 @dp.callback_query_handler(text="Mat")
 async def fmf_hi(call: CallbackQuery):
     await call.answer(cache_time=60)
