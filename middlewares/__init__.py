@@ -1,10 +1,8 @@
+from aiogram.contrib.middlewares.logging import LoggingMiddleware
+from loguru import logger
 from aiogram import Dispatcher
 
-from loader import dp
 
-# from .throttling import ThrottlingMiddleware
-from .throttling import ThrottlingMiddleware
-
-if __name__ == '__main__':
-    # dp.middleware.setup(ThrottlingMiddleware())
-    dp.middleware.setup(ThrottlingMiddleware())
+def setup(dp: Dispatcher):
+    dp.middleware.setup(LoggingMiddleware())
+    logger.info('Middlewares are successfully configured')
