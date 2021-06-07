@@ -1,5 +1,9 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 
+languages_markup = InlineKeyboardMarkup(row_width=1)
+ln_1 = InlineKeyboardButton(text="Русский", callback_data="lang_ru")
+languages_markup.insert(ln_1)
+
 # Платное информация
 # ИАЭП
 baaip_platka = InlineKeyboardMarkup(row_widht=1)
@@ -146,25 +150,6 @@ back_button140OBS = InlineKeyboardMarkup(row_width=1)
 OBS_140 = InlineKeyboardButton(text="Назад", callback_data="back_140")
 
 back_button140OBS.insert(OBS_140)
-
-# Клавиатура для МИР
-ViborIKT_button = InlineKeyboardMarkup(row_width=1)
-
-IKvibor_1 = InlineKeyboardButton(text="209", callback_data="IKKT_209")
-
-ViborIKT_button.insert(IKvibor_1)
-
-IKvibor_2 = InlineKeyboardButton(text="<=232", callback_data="IKKT_232")
-
-ViborIKT_button.insert(IKvibor_2)
-
-IKvibor_3 = InlineKeyboardButton(text="<=245", callback_data="IKKT_245")
-
-ViborIKT_button.insert(IKvibor_3)
-
-IKvibor_4 = InlineKeyboardButton(text="<>=247", callback_data="IKKT_247")
-
-ViborIKT_button.insert(IKvibor_4)
 
 # 209
 # Платка не платка в МИР
@@ -429,19 +414,19 @@ back_spo_tk.insert(back_tk_1)
 # Высшее
 vibor_button = InlineKeyboardMarkup(row_width=1)
 
-vibor_1 = InlineKeyboardButton(text="⭐️ Математика Русский Физика", callback_data="Mat")
+vibor_1 = InlineKeyboardButton(text="⭐️ Мат Рус Физ", callback_data="Mat")
 
 vibor_button.insert(vibor_1)
 
-vibor_2 = InlineKeyboardButton(text="⭐️ Математика Русский Информатика", callback_data="IkT")
+vibor_2 = InlineKeyboardButton(text="⭐️ Мат Рус ИКТ", callback_data="IkT")
 
 vibor_button.insert(vibor_2)
 
-vibor_3 = InlineKeyboardButton(text="⭐️ Математика Русский Обществознание", callback_data="Obshaga")
+vibor_3 = InlineKeyboardButton(text="⭐️ Мат Рус Общ", callback_data="Obshaga")
 
 vibor_button.insert(vibor_3)
 
-vibor_4 = InlineKeyboardButton(text="⭐️ Математика Русский Английский", callback_data="English")
+vibor_4 = InlineKeyboardButton(text="⭐️ Мат Рус Англ", callback_data="English")
 
 vibor_button.insert(vibor_4)
 
