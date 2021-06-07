@@ -1,8 +1,8 @@
 from .start import dp
-from .purchase import dp
-import logging
-
 from .start import bot_start
+import logging
+from .purchase import dp
+
 
 from aiogram import Dispatcher, filters
 
