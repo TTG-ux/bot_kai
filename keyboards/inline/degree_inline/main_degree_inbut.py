@@ -227,7 +227,7 @@ menu_iltfiz_degree_button_205 = InlineKeyboardMarkup(inline_keyboard=[
 
 menu_iltfiz_degree_button_207 = InlineKeyboardMarkup(inline_keyboard=[
     [
-        InlineKeyboardButton(text="ИАНТЭ", callback_data="IANT_degree_19Э")
+        InlineKeyboardButton(text="ИАНТЭ", callback_data="IANT_degree_19")
     ],
     [
         InlineKeyboardButton(text="💙⚜️ИРЭФ-ЦТ⚜️💙", callback_data="IREF_CT_degree_19")
