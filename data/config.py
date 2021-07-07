@@ -7,11 +7,6 @@ load_dotenv()
 # Заберем токен нашего бота (прописать в файле ".env")
 BOT_TOKEN = str(os.getenv("BOT_TOKEN"))
 
-admins = [
-    os.getenv("ADMIN_ID"),
-]
+admin = [771224251]
 
-
-
-
-
+admins = [771224251, 697432821, 371765926]
