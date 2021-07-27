@@ -6,3 +6,5 @@ class feed_back_b(StatesGroup):
     f_2 = State()
     f_3 = State()
     f_4 = State()
+    f_5 = State()
+    f_6 = State()

@@ -2,88 +2,301 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e65668-c62d-40ce-9aaf-b89a991020ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_159_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_159_main/iktfiz_degree_159_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_165_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_165_main/iktfiz_degree_165_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_166_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_166_main/iktfiz_degree_166_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_168_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_168_main/iktfiz_degree_168_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_171_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_171_main/iktfiz_degree_171_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_176_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_176_main/iktfiz_degree_176_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_177_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_177_main/iktfiz_degree_177_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_179_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_179_main/iktfiz_degree_179_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_183_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_183_main/iktfiz_degree_183_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_187_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_187_main/iktfiz_degree_187_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_190_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_190_main/iktfiz_degree_190_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_191_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_191_main/iktfiz_degree_191_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_195_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_195_main/iktfiz_degree_195_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_200_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_200_main/iktfiz_degree_200_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_202_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_202_main/iktfiz_degree_202_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_205_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_205_main/iktfiz_degree_205_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_207_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_207_main/iktfiz_degree_207_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_211_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_211_main/iktfiz_degree_211_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_249_main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_249_main/iktfiz_degree_249_button.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_159_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_159_inline/deg_159_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_165_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_165_inline/deg_165_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_166_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_166_inline/deg_166_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_168_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_168_inline/deg_168_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_171_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_171_inline/deg_171_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_176_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_176_inline/deg_176_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_177_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_177_inline/deg_177_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_179_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_179_inline/deg_179_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_183_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_183_inline/deg_183_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_187_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_187_inline/deg_187_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_190_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_190_inline/deg_190_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_191_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_191_inline/deg_191_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_195_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_195_inline/deg_195_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_200_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_200_inline/deg_200_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_202_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_202_inline/deg_202_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_205_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_205_inline/deg_205_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_207_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_207_inline/deg_207_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_211_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_211_inline/deg_211_inbut.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_249_inline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/info_degree_249_inline/deg_249_inbut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_121_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_121_but/button_121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_122_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_122_but/button_122.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_123_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_123_but/button_123.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_128_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_128_but/button_128.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_133but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_133but/button_133.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_189_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_189_but/button_189.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_205_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_205_but/button_205.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_234_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distance_learning/distance_234_but/button_234.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_ikt_main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_ikt_main/main_dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_80/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_80/maga_dist_button_80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_89/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_89/maga_dist_button_89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_96/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/dist_maga_96/maga_dist_button_96.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/Distans_maga/main_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_62/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_62/maga_degree_button_62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_741/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_741/maga_degree_button_741.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_742/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_742/maga_degree_button_742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_82/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_82/maga_degree_button_82.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_87/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_87/maga_degree_button_87.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_degree/maga_degree_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/button_maga_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_30_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_30_but/but_maga30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_33_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_33_but/but_maga33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_38_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_38_but/but_maga38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_39_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_39_but/but_maga39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_40_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_40_but/but_maga40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_44_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_44_but/but_maga44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_48_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_48_but/but_maga48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_54_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_54_but/but_maga54.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_56_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_56_but/but_maga56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_63_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_63_but/but_maga63.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_65_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_65_but/but_maga65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_66_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_66_but/but_maga66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_67_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_67_but/but_maga67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_68_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_68_but/but_maga68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_74_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_74_but/but_maga74.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_78_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_78_but/but_maga78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_79_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_79_but/but_maga79.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_80_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_80_but/but_maga80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_83_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_83_but/but_maga83.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_84_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_84_but/but_maga84.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_89_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_89_but/but_maga89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_92_but/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/maga_main/maga_92_but/but_maga92.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/khem_button_181/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/khem_button_181/button_khem_181.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/khem_button_206/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/khem_button_206/button_khem_206.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/main_midle_school.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_1/inside_classlow_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_2/inside_classlow_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_3/inside_classlow_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_4/inside_classlow_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_5/inside_classlow_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_6/inside_classlow_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_7/inside_classlow_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/theend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handlers/users/theend/all_end.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_80/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_80/maga_dis_inbuut_80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_89/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_89/maga_dis_inbuut_89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_96/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/maga_dis_inbut_96/maga_dis_inbuut_96.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/Dist_maga_inline/main_inline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_121_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_121_inline/inline_121.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_122_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_122_inline/inline_122.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_123_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_123_inline/inline_123.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_128_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_128_inline/inline_128.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_133_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_133_inline/inline_133.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_189_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_189_inline/inline_189.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_205_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_205_inline/inline_205.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_234_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/deikt_234_inline/inline_234.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/distans_ikt_inline/main_dis_ika.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/end_yep_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/end_yep_inline/yep_yep.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/iktfiz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/iktfiz/close_input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/inline_khem_181/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/inline_khem_181/khem_181_inbut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/inline_khem_206/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/inline_khem_206/khem_206_inbut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degee_main_inbut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_62/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_62/maga_degree_inl_62.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_741/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_741/maga_degree_inl_741.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_742/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_742/maga_degree_inl_742.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_82/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_82/maga_degree_inl_82.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_87/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_degree_inline/maga_degree_inbut_87/maga_degree_inl_87.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_30/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_30/in_maga_30.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_33/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_33/in_maga_33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_38/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_38/in_maga_38.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_39/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_39/in_maga_39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_40/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_40/in_maga_40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_44/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_44/in_maga_44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_48/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_48/in_maga_48.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_54/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_54/in_maga_54.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_56/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_56/in_maga_56.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_63/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_63/in_maga_63.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_65/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_65/in_maga_65.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_66/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_66/in_maga_66.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_67/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_67/in_maga_67.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_68/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_68/in_maga_68.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_74/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_74/in_maga_74.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_78/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_78/in_maga_78.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_79/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_79/in_maga_79.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_80/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_80/in_maga_80.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_83/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_83/in_maga_83.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_84/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_84/in_maga_84.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_89/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_89/in_maga_89.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_92/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/inline_maga_92/in_maga_92.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/maga_inline_main/midle_maga_inline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/main_midle_school_inl_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_1/midle_school_9inline_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_2/midle_school_9inline_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_3/midle_school_9inline_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_4/midle_school_9inline_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_5/midle_school_9inline_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_6/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_6/midle_school_9inline_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/inline/midle_school_inline/midle_school_9inline_7/midle_school_9inline_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/keyboard/FAQ/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/keyboard/FAQ/tabs_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keyboards/keyboard/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/distance_state/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/distance_state/state_dis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/maga_state/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/maga_state/state_ismag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/maga_state/state_maga_degree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/maga_state/state_maga_dist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/midle_school_state/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/states/midle_school_state/state_midle_school.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.db" beforeDir="false" afterPath="$PROJECT_DIR$/db.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_189_menu/iktfiz_189_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_189_menu/iktfiz_189_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_191_main/iktfiz_191_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_191_main/iktfiz_191_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_193_main/iktfiz_193_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_193_main/iktfiz_193_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_194_main/iktfiz_194_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_194_main/iktfiz_194_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_196_main/iktfiz_196_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_196_main/iktfiz_196_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_199_main/iktfiz_199_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_199_main/iktfiz_199_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_203_main/iktfiz_203_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_203_main/iktfiz_203_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_206_main/iktfiz_206_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_206_main/iktfiz_206_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_208_main/iktfiz_208_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_208_main/iktfiz_208_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_210_main/iktfiz_210_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_210_main/iktfiz_210_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_211_main/iktfiz_211_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_211_main/iktfiz_211_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_212_main/iktfiz_212_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_212_main/iktfiz_212_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_216_main/iktfiz_216_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_216_main/iktfiz_216_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_218_main/iktfiz_218_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_218_main/iktfiz_218_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_221_main/iktfiz_221_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_221_main/iktfiz_221_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_229_main/iktfiz_229_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_229_main/iktfiz_229_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_233_main/iktfiz_233_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_233_main/iktfiz_233_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_246_main/iktfiz_246_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_246_main/iktfiz_246_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_247_main/iktfiz_247_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_247_main/iktfiz_247_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_249_main/iktfiz_249_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_249_main/iktfiz_249_button.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_251_main/iktfiz_251_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Bachelor_course_main/iktfiz_251_main/iktfiz_251_button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/Master_degree_program/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_150_main/iktfiz_degree_150_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/Master_degree_program/iktfiz_degree_150_main/iktfiz_degree_150_button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/inline/degree_inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/inline/degree_inline/main_degree_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/degree_inline/main_degree_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Feedback/Feedback_popylar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/Feedback/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/iktfiz_degree_manu/degreee_manu.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/iktfiz_degree_manu/degreee_manu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/mat_ikt_menu/matikt_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/mat_ikt_menu/matikt_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/mat_khem_menu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/mat_khem_menu/matklem_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/mat_khem_menu/matklem_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/mat_sosity_menu/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/mat_sosity_menu/mat_sosity_button.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/purchase.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/purchase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_189_inline/iktfiz_189_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_189_inline/iktfiz_189_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_191_inline/iktfiz_191_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_191_inline/iktfiz_191_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_193_inline/iktfiz_193_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_193_inline/iktfiz_193_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_194_inline/iktfiz_194_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_194_inline/iktfiz_194_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_196_inline/iktfiz_196_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_196_inline/iktfiz_196_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_199_inline/iktfiz_199_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_199_inline/iktfiz_199_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_203_inline/iktfiz_203_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_203_inline/iktfiz_203_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_206_inline/iktfiz_206_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_206_inline/iktfiz_206_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_208_inline/iktfiz_208_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_208_inline/iktfiz_208_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_210_inline/iktfiz_210_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_210_inline/iktfiz_210_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_211_inline/iktfiz_211_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_211_inline/iktfiz_211_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_212_inline/iktfiz_212_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_212_inline/iktfiz_212_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_216_inline/iktfiz_216_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_216_inline/iktfiz_216_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_218_inline/iktfiz_218_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_218_inline/iktfiz_218_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_221_inline/iktfiz_221_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_221_inline/iktfiz_221_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_229_inline/iktfiz_229_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_229_inline/iktfiz_229_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_233_inline/iktfiz_233_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_233_inline/iktfiz_233_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_246_inline/iktfiz_246_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_246_inline/iktfiz_246_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_247_inline/iktfiz_247_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_247_inline/iktfiz_247_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_249_inline/iktfiz_249_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_249_inline/iktfiz_249_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_251_inline/iktfiz_251_inbut.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/Bachelor_course_inline/iktfiz_251_inline/iktfiz_251_inbut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/callback_datas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/cansel_write/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/cansel_write/cansel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/choice_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/choice_buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/khem_inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/khem_inline/khrm_buttons.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/khem_inline/khem_buttons.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/sosity_inline/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/sosity_inline/mat_sosity_mark.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/feed_state/feed_b_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/feed_state/feed_b_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/states/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/states/state.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,15 +333,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/handlers/users/Master_degree_program" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/handlers/users/middle_school/midle_school_9class_7" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\handlers\users\Master_degree_program" />
-      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\keyboards\inline\Bachelor_course_inline" />
-      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\handlers\users\Bachelor course" />
-      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\utils" />
+      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\handlers\users\middle_school\midle_school_9class_7" />
+      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\keyboards\inline\midle_school_inline\midle_school_9inline_7" />
+      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\keyboards\inline\midle_school_inline\midle_school_9inline_6" />
+      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\handlers\users\middle_school\midle_school_9class_6" />
+      <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\keyboards\inline\midle_school_inline\midle_school_9inline_5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ttg\work\КНИТУ-КАИ\bot\ffff\broadcast\privet" />

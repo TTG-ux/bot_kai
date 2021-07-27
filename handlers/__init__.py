@@ -1,2 +1,2 @@
-from .users import dp
+from . import users
 

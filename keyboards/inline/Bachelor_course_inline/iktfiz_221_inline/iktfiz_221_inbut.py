@@ -36,9 +36,6 @@ menu_221iktfiz_button_1 = InlineKeyboardMarkup(inline_keyboard=[
         InlineKeyboardButton(text="Информационно-измерительные системы", callback_data="Information_systems_19")
     ],
     [
-        InlineKeyboardButton(text="Стандартизация, сертификация и метрология", callback_data="Standardization_19")
-    ],
-    [
         InlineKeyboardButton(text="Управление качеством", callback_data="Quality_management_19")
     ],
     [

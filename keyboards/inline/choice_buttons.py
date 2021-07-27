@@ -317,6 +317,7 @@ back_button247IKT.insert(b_1247IKT)
 determined_button = ReplyKeyboardMarkup(keyboard=[
     [
         KeyboardButton(text="🔷 Поступление☑️"),
+        KeyboardButton(text="👉 Без баллов ЕГЭ 👈")
     ],
     [
         KeyboardButton(text="❓Часто задаваемые вопросы❓")
@@ -329,20 +330,11 @@ determined_button = ReplyKeyboardMarkup(keyboard=[
         KeyboardButton(text='🚀Платное обучение🚀')
     ],
     [
-        KeyboardButton(text="Оставить отзыв🖍")
+        KeyboardButton(text="⚡️Оставить отзыв🖍")
     ]
 ],
     resize_keyboard=True
 )
-
-# СПО
-vibor_sr_1 = InlineKeyboardMarkup(row_width=1)
-
-vibor_sr_r_1 = InlineKeyboardButton(text="⭐️ от 3 до 4", callback_data="var 3-4")
-vibor_sr_1.insert(vibor_sr_r_1)
-
-vibor_sr_r_2 = InlineKeyboardButton(text="⭐️ от 4 и выше", callback_data="var 4+")
-vibor_sr_1.insert(vibor_sr_r_2)
 
 # Бюджет от 3-4
 colledge_button = InlineKeyboardMarkup(row_width=1)
@@ -365,7 +357,6 @@ kit_button.insert(Colledge_1)
 
 Colledge_2 = InlineKeyboardButton(text="ТК", callback_data="tk_1")
 kit_button.insert(Colledge_2)
-
 
 # Образовательные программы
 programm_spo4_button = InlineKeyboardMarkup(row_width=1)
@@ -408,24 +399,33 @@ back_spo_tk.insert(back_tk_1)
 # Высшее
 vibor_button = InlineKeyboardMarkup(row_width=1)
 
-vibor_1 = InlineKeyboardButton(text="⭐️ Мат Рус Физ и ИКТ", callback_data="Mat")
+vibor_1 = InlineKeyboardButton(text="⭐️ Мат Рус Физ или ИКТ", callback_data="Mat")
 
 vibor_button.insert(vibor_1)
-
-vibor_2 = InlineKeyboardButton(text="⭐️ Мат Рус Общ", callback_data="Obshaga")
-
-vibor_button.insert(vibor_2)
 
 vibor_3 = InlineKeyboardButton(text="⭐️ Мат Рус Хим", callback_data="Khemical")
 
 vibor_button.insert(vibor_3)
 
+# Мага
+vibor_button_maga = InlineKeyboardMarkup(row_width=1)
+
+vibor_maga_1 = InlineKeyboardButton(text="🔸 Очное", callback_data="Free_maga")
+
+vibor_button_maga.insert(vibor_maga_1)
+
+vibor_maga_2 = InlineKeyboardButton(text="🔸 Заочное", callback_data="night_maga")
+
+vibor_button_maga.insert(vibor_maga_2)
+
+vibor_maga_3 = InlineKeyboardButton(text="🔸 Целевое", callback_data="high_maga")
+
+vibor_button_maga.insert(vibor_maga_3)
+
 # Выбор мага или бак
 menu_univer_button = ReplyKeyboardMarkup(keyboard=[
     [
-        KeyboardButton(text="🔹 Бакалавриат")
-    ],
-    [
+        KeyboardButton(text="🔹 Бакалавриат"),
         KeyboardButton(text="🔹 Магистратура")
     ],
     [
@@ -441,12 +441,34 @@ menu_univer_button = ReplyKeyboardMarkup(keyboard=[
 # Выбор форму обучения
 menu_Form_of_training_button = InlineKeyboardMarkup(inline_keyboard=[
     [
-        InlineKeyboardButton(text="Очное", callback_data="full_time_training")
+        InlineKeyboardButton(text="🔺 Очное", callback_data="full_time_training"),
+        InlineKeyboardButton(text="🔺 Заочное", callback_data="Distance_learning"),
+        InlineKeyboardButton(text="🔺 Целевое", callback_data="Targeted_training")
+    ]
+])
+
+# Не было в прошлом году набора
+menu_theend = InlineKeyboardMarkup(inline_keyboard=[
+    [
+        InlineKeyboardButton(text="ВШПИТ", callback_data="VSHIP_end")
     ],
     [
-        InlineKeyboardButton(text="Заочное", callback_data="Distance_learning")
+        InlineKeyboardButton(text="ИАНТЭ", callback_data="IANT_end")
     ],
     [
-        InlineKeyboardButton(text="Целевое", callback_data="Targeted_training")
+        InlineKeyboardButton(text="ИАЭП", callback_data="IAAP_end")
+    ],
+    [
+        InlineKeyboardButton(text="ИИЭиП", callback_data="IIAIP_end")
+    ],
+    [
+        InlineKeyboardButton(text="🏛Главное меню🏛", callback_data="bb_yra")
+    ]
+])
+
+# 300р в год
+menu_one_300 = InlineKeyboardMarkup(inline_keyboard=[
+    [
+        InlineKeyboardButton(text="Посмотреть", callback_data="wie")
     ]
 ])
